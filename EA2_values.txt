@@ -1,0 +1,10 @@
+Graz-N      22.059916
+Day sin      0.000084
+Day cos      0.000110
+Year sin     0.090957
+Year cos    -0.000027
+Graz-N      16.543151
+Day sin      0.707102
+Day cos      0.707123
+Year sin     0.701283
+Year cos     0.707068
