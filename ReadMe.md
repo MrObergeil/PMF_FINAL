@@ -7,7 +7,7 @@ ___
 
 1. CPU with AVX/AVX2 support
 2. GPU with CUDA support beneficial
-3. Linux operating system with GUI (Ubuntu 20.04)
+3. Linux operating system with GUI (Ubuntu 20.04.2 Desktop)
 4. 8GB of RAM
 5. Internet connection
 
