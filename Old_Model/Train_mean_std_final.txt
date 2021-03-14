@@ -1,0 +1,12 @@
+ziel             24.890940
+df_luftdruck    977.299941
+Day sin           0.000084
+Day cos           0.000110
+Year sin          0.090957
+Year cos         -0.000027
+ziel            17.628592
+df_luftdruck     7.483638
+Day sin          0.707102
+Day cos          0.707123
+Year sin         0.701283
+Year cos         0.707068
