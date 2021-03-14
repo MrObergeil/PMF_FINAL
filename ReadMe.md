@@ -61,18 +61,14 @@ sudo docker run hello-world
 
 ### Set up the Project
 
-Download or clone this repository. Do not move or rename any directories, this could lead to errors.
+Download or clone this repository. Do not move or rename any directories/files, this could lead to errors.
 
 `git clone https://github.com/MrObergeil/PMF_FINAL.git`
 
-Install Docker Compose (version 1.25/1.26.0), if you not want to install it Global, or have problems because of missing permissions/PATH skip this step and install Docker Compose later via pip3 in your virtual environment.
-
+Install Docker Compose (version 1.26.0)
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-Linux-x86_64" -o /usr/local/bin/docker-compose
 
-OR
-
-sudo apt install docker-compose
 ```
 
 Set user permissions
@@ -156,16 +152,6 @@ Install requred python packages
 ```
 pip3 install numpy==1.19.2 seaborn==0.11.1 tensorflow-cpu==2.4.1 kafka-python==2.0.2 xlrd==2.0.1 xlutils==2.0.0
 ```
-Install Docker Compose (only necessary if you didnt install Docker Compose globally)
-```
-pip3 install docker-compose==1.26.0
-```
-
-Verify Docker Compose installation
-
-```
-docker-compose --version
-```
 
 In your terminal switch to the folder "Kafka_Cluster", inside the "PMF_FINAL" repository. This folder  contains the docker-compose.yml file, with the configurations for the Kafka Cluster.
 
@@ -175,21 +161,14 @@ cd home/<user>/<downloadLocation>/PMF_FINAL/Kafka_Cluster
 
 Start Docker Container using docker-compose on the Yaml-File, the Kafka Cluster is declared as "kafka-cluster" in the Yaml-File.
 
-For global Docker Compose Installation (execute in new Terminal or exit your virtual environment)sz:
 ```
 sudo docker-compose up kafka-cluster
 
 ```
 
-If you only installed Docker Compose inside your virtual environment (PMF-venv), you have to activate the environment first before you can start Docker-Compose
-```
-source PMF-venv/bin/activate
-sudo docker-compose up kafka-cluster
-```
+This will download the required Docker-Image and start your Apache Kafka Cluster.
 
-This will download the required Docker-Image and start your Cluster
-
-Wait 1-2 min for the cluster to start up
+Wait 1-2 min for the cluster to start up.
 
 Access LensesIO-Webinterface via `127.0.0.1:3030` to monitor and check the status of your Kafka Cluster
 
