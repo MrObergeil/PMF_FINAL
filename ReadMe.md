@@ -94,7 +94,7 @@ Check Python installation with:
 python3 --version
 ```
 
-Install Python if its not installed or is an older version than 3.6
+Install Python if its not installed or is an older version than 3.8
 
 ```
 sudo apt-get update
