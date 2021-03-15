@@ -2,6 +2,28 @@
 
 ___
 
+## Contents:
+
+EA2-Modell --> Machine Learning Modell Binaries
+EndabgabeMoser --> Jupyter Notebooks Moser² 
+Kafka_Cluster --> Apache Kafka Configuration file with Zookeeper, Kafka Broker and Landoop Web UI
+Old_Model --> Old ML Model and prediction python script
+Screenshots
+consumerfinal.py --> Kafka Python consumer, which reads Data from a Kafka Topic and produces predictions with the ML model
+producer.py --> Kafka Python producer, produces Sensordata and sends it to a Kafka Topic
+preditions2.py --> function, uses the EA2-Modell and the trained mean values "EA2_values" to make a prediction on the given dataframe
+EA2_values --> Trained mean values
+jsonFinal.json --> Sensor data in Json format
+
+
+
+## FH-Server Testingenvironment:
+
+1. Connect via RDP 10.25.6.5 (VPN requiered)
+2. Username: Administrator / Password: Pa55w.rd
+3. Select Linux VM Test02
+4. Username: test / Password: 1234
+
 
 ## System Requirements:
 
