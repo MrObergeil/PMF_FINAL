@@ -163,7 +163,7 @@ pip show "seaborn/tensorflow-cpu....".
 
 This also shows you any required other pip3 packages for each individual package (should be installed by pip automatically, if not manually add them using the pip3 install command.)
 
-Install requred python packages
+Install required python packages
 
 - Seaborn (version 0.11.1)
 - Tensorflow (version 2.4.1)
